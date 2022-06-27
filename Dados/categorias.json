@@ -1,0 +1,22 @@
+{
+    "tipo": "categoria",
+    "categorias":[
+        {
+            "titulo": "Cojuntinhos",
+            "img": "conjuntos.png",
+            "valor": 59.90
+        },
+        {
+            "titulo": "Peças avulsas",
+            "img": "avulso.png",
+            "valor": 29.90
+        },
+        {
+            "titulo": "Acessórios",
+            "img": "acessorio.png",
+            "valor": 9.90
+        }
+    ]
+        
+    
+}
