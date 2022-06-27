@@ -1,6 +1,15 @@
 header {
     background: #e9cfb8;
 }
+.caixa {
+    position: relative;
+    width: 1200px;
+}
+nav {
+    position:absolute;
+    top: 75px;
+    right: 0px;
+}
 nav li {
     display: inline;
     margin: 0 0 0 15px;
