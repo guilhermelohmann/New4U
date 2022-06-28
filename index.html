@@ -29,22 +29,31 @@
 					jsonGet({
 						url:"Dados/categorias.json",
 						success:function(dados){
-							console.log(dados);
+							for(var cat of dados.categorias){
+								let li=createNewElement({
+									tag:"li",
+									parent:"ul.produtos"
+								});
+								let h2=createNewElement({
+									tag:"h2",
+									parent:li,
+									innerHTML:cat.titulo
+								});
+								let img=createNewElement({
+									tag:"img",
+									parent:li,
+									src:cat.img														
+								});
+								let p=createNewElement({
+									tag:"p",
+									parent:li,
+									class:"produto-preco",
+									innerHTML:"A partir de: R$" + cat.valor
+								});
+							}
 						},
 						error:function(err){}
 					});
-
-
-
-				//	<li>
-				//		<h2>Conjuntinhos</h2>
-				//		<img src="conjuntos.png">
-				//		<p class="produto-preco">A partir de: R$59,90</p>
-				//	</li>
-
-
-
-
 				</script>
 			</ul>
 		</main>
