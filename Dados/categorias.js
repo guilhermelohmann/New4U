@@ -1,4 +1,4 @@
-{
+var dados={
     "tipo": "categoria",
     "categorias":[
         {
@@ -19,4 +19,4 @@
     ]
         
     
-}
+};
