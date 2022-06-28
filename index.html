@@ -29,6 +29,7 @@
 					jsonGet({
 						url:"Dados/categorias.json",
 						success:function(dados){
+							console.log(dados);
 							for(var cat of dados.categorias){
 								let li=createNewElement({
 									tag:"li",
