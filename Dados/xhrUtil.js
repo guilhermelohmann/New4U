@@ -69,7 +69,7 @@ var createNewElement = function(params){
   }
   if(!!params.class) el.classList.add(params.class);
   for(var k in params){
-      if(k!=='tag' && k!=='parent' && k!=='class' && !k.trim) el[k] = params[k];
+      if(k!=='tag' && k!=='parent' && k!=='class' && !!k.trim) el[k] = params[k];
   }
   return el;
 }
