@@ -4,7 +4,6 @@
 		<meta charset="utf-8">
 		<title>New 4 U</title>
 		<script src="Dados/xhrUtil.js"></script>
-		<script src="Dados/categorias.js"></script>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="visual.css">
 	</head>
@@ -27,9 +26,9 @@
 		<main>
 			<ul class="produtos">
 				<script>
-					//jsonGet({
-					//	url:"Dados/categorias.json",
-					//	success:function(dados){
+					jsonGet({
+						url:"Dados/categorias.json",
+						success:function(dados){
 							for(var cat of dados.categorias){
 								let li=createNewElement({
 									tag:"li",
@@ -52,9 +51,9 @@
 									innerHTML:"A partir de: R$" + cat.valor
 								});
 							}
-				//		},
-				//		error:function(err){}
-				//	});
+						},
+						error:function(err){}
+					});
 				</script>
 			</ul>
 		</main>
