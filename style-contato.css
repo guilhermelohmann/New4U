@@ -1,0 +1,105 @@
+header {
+    background: #e9cfb8;
+    padding: 20px 0;
+}
+.caixa {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+nav {
+    position:absolute;
+    top: 75px;
+    right: 40px;
+}
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #c9a6e0;
+    text-decoration: underline;
+}
+.produtos {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li:hover {
+    border-color: #9869b4;
+}
+.produtos li:active {
+    border-color: #79b98e
+}
+.produtos li:hover h2 {
+    font-size: 30 px;
+    font-style: oblique;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: #e9cfb8;
+    margin: 0 1.5%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    border: 2px #000000 solid;
+    border-radius: 10px 10px 70px 30px;
+}
+.produtos h2 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+footer {
+    text-align: center;
+    background: url(desenhos.png);
+    padding: 40px 0;
+}
+.copyright {
+    font-size: 13 px;
+    color: aliceblue;
+    padding-top: 20px;
+}main {
+    width: 940px;
+    margin: 0 auto;
+}
+form {
+    margin: 40px 0;
+}
+form label {
+    display: block;
+    font-weight: bold;
+}
+form input {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 40px;
+    width: 40%;
+}
+form textarea {
+    display: block;
+    margin: 15px 0;
+    padding: 10px 40px;
+    width: 40%;
+}
+.contato-cliente {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 0;
+    padding: 10px 0;
+}
