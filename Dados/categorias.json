@@ -13,7 +13,8 @@
         },
         {
             "titulo": "Acessórios",
-            "img": "acessorio.png",
+            "img": "acessorio.png", 
+            "alt": "imagem de acessorio",
             "valor": 9.90
         }
     ] 
