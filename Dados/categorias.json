@@ -15,11 +15,6 @@
             "titulo": "Acessórios",
             "img": "acessorio.png", 
             "valor": 9.90
-        },
-        {
-            "titulo": "abcde",
-            "img": "teste.png", 
-            "valor": 1.99
         }
     ] 
 }
