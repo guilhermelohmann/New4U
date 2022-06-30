@@ -82,14 +82,18 @@ form label {
 .enviar-contato {
     width: 20%;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 15px;
     padding: 15px;
     background: url(Enviar.png);
-    background-position: 25%;
+    background-position: 20%;
     border-radius: 50px;
-    font-size: 15px;
-    border-color: #c9a6e0;
+    border-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    transition: 1s all;
 }
 .enviar-contato:hover {
-    border-color: orange;
-    font-family: Arial, Helvetica, sans-serif;
+    border-color: rgb(145, 127, 26);
+    transform: scale(1.05);
 }
