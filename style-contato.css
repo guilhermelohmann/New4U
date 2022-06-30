@@ -97,3 +97,7 @@ form label {
     border-color: rgb(145, 127, 26);
     transform: scale(1.05);
 }
+.body-color {
+    width: 100%;
+    background-color: #c77b3e;
+}
